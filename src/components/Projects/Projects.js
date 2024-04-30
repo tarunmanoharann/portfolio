@@ -21,7 +21,7 @@ function Projects({}) {
               isBlog={false}
               title="Scribble"
               description="Unleash your mind's masterpiece. Immerse yourself in a realm where stories come alive through the magic of words. Explore, create, and get lost in the art of storytelling on our unique literary canvas"
-              ghLink="https://github.com/tarunmanoharan/Scribble"
+              ghLink="https://github.com/tarunmanoharann/Scribble"
               demoLink="https://scribble-bice.vercel.app/"
             />
           </Col>
@@ -32,7 +32,7 @@ function Projects({}) {
               isBlog={false}
               title="SmoothGulp"
               description="Sip into satisfaction. Elevate your taste experience with our curated collection of refreshing beverages. From smooth sips to delightful gulps, discover a symphony of flavors at your fingertips."
-              ghLink="https://github.com/tarunmanoharan/Beverage"
+              ghLink="https://github.com/tarunmanoharann/Beverage"
               demoLink="https://smoothgulp.vercel.app/"
             />
           </Col>
