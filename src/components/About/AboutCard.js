@@ -29,7 +29,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(41,158,152)", fontWeight: "bold" }}>
-            "Lazy One Codes The best ..."{" "}
+            "One day (or) Day One !!"{" "}
           </p>
           <footer className="blockquote-footer">Tarun</footer>
         </blockquote>
