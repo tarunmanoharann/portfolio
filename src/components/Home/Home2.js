@@ -5,10 +5,10 @@ import Projects from "../Projects/Projects";
 import ResumeNew from "../Resume/ResumeNew";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { RiTwitterXFill } from "react-icons/ri";
 
 function Home2() {
   return (
@@ -44,7 +44,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <RiTwitterXFill />
                 </a>
               </li>
               <li className="social-icons">
