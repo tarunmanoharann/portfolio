@@ -27,7 +27,7 @@ function Home() {
                 src={tarunProfile}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px", opacity:0.4,borderRadius:"1em"}}
+                style={{ maxHeight: "450px", opacity:0.55,borderRadius:"1em"}}
               />
             </Col>
           </Row>
