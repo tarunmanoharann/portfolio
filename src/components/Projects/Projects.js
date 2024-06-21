@@ -15,6 +15,18 @@ function Projects({}) {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={smoothgulp}
+              isBlog={false}
+              title="SmoothGulp"
+              description="Sip into satisfaction. Elevate your taste experience with our curated collection of refreshing beverages. From smooth sips to delightful gulps, discover a symphony of flavors at your fingertips."
+              ghLink="https://github.com/tarunmanoharann/Beverage"
+              demoLink="https://smoothgulp.vercel.app/"
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={scribble}
@@ -26,16 +38,7 @@ function Projects({}) {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={smoothgulp}
-              isBlog={false}
-              title="SmoothGulp"
-              description="Sip into satisfaction. Elevate your taste experience with our curated collection of refreshing beverages. From smooth sips to delightful gulps, discover a symphony of flavors at your fingertips."
-              ghLink="https://github.com/tarunmanoharann/Beverage"
-              demoLink="https://smoothgulp.vercel.app/"
-            />
-          </Col>
+         
  
         </Row>
       </Container>
