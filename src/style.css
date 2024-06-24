@@ -36,12 +36,32 @@ button:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: opacity 0.3s ease-out;
+  transition: opacity 0.5s ease-out;
 }
 
 .preloader-none {
   opacity: 0;
   pointer-events: none;
+}
+
+.preloader svg {
+  filter: drop-shadow(0 0 8px rgba(46, 168, 157, 0.6));
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.preloader svg {
+  animation: float 3s ease-in-out infinite;
 }
 
 /* --------- */

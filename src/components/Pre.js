@@ -7,7 +7,7 @@ function Pre({ load }) {
         <path
           d="M10 80 Q30 5 50 80 T90 80 M110 20 V80 M130 20 V80 M150 20 C170 20 190 40 190 60 C190 80 170 80 150 80 M210 20 Q230 20 240 40 Q250 60 230 80 M260 20 V80 M280 20 V80"
           fill="none"
-          stroke="#ffffff"
+          stroke="rgb(46,168,157)"
           strokeWidth="4"
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -16,8 +16,8 @@ function Pre({ load }) {
             attributeName="stroke-dasharray"
             from="0 1000"
             to="1000 0"
-            dur="4s"
-            repeatCount="1"
+            dur="1.8s"
+            repeatCount="indefinite"
           />
         </path>
       </svg>
