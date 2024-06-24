@@ -36,7 +36,7 @@ button:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: opacity 0.5s ease-out;
+  transition: opacity 0.3s ease-out;
 }
 
 .preloader-none {

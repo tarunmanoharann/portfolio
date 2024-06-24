@@ -23,7 +23,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       updateLoad(false);
-    }, 1200); // Increased to 5 seconds
+    }, 1800); 
 
     return () => clearTimeout(timer);
   }, []);
