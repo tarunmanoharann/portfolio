@@ -25,7 +25,7 @@ button:focus {
 /*  Preloader */
 
 
-#preloader {
+.preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -33,18 +33,15 @@ button:focus {
   height: 100%;
   z-index: 999999;
   background-color: #0c0513;
-  background-image: url(./Assets/pre.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.5s ease-out;
 }
 
-#preloader-none {
+.preloader-none {
   opacity: 0;
-}
-
-#no-scroll {
-  overflow: hidden;
-  height: 100vh;
+  pointer-events: none;
 }
 
 /* --------- */
