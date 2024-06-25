@@ -24,7 +24,6 @@ button:focus {
 
 /*  Preloader */
 
-
 .preloader {
   position: fixed;
   top: 0;
@@ -48,20 +47,19 @@ button:focus {
   filter: drop-shadow(0 0 8px rgba(46, 168, 157, 0.6));
 }
 
-@keyframes float {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.name-reveal {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  fill: rgb(46,168,157);
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+  animation-delay: 4s;
 }
 
-.preloader svg {
-  animation: float 3s ease-in-out infinite;
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 
 /* --------- */
