@@ -16,7 +16,7 @@ function Pre({ load }) {
             attributeName="stroke-dasharray"
             from="0 1000"
             to="1000 0"
-            dur="1.8s"
+            dur="2s"
             repeatCount="indefinite"
           />
         </path>
