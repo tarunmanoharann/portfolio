@@ -22,7 +22,7 @@ function Projects({}) {
               isBlog={false}
               title="SmoothGulp"
               description="Sip into satisfaction. Elevate your taste experience with our curated collection of refreshing beverages. From smooth sips to delightful gulps, discover a symphony of flavors at your fingertips."
-              ghLink="https://github.com/tarunmanoharann/Beverage"
+              ghLink="https://github.com/tarunmanoharann/smoothgulp"
               demoLink="https://smoothgulp.vercel.app/"
             />
           </Col>
