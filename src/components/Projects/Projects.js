@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import scribble from "../../Assets/Projects/Scribble.png"
 import smoothgulp from "../../Assets/Projects/Smoothgulp.png"
+import shebakes from "../../Assets/Projects/SheBakes.png"
 
 function Projects({}) {
   return (
@@ -35,6 +36,17 @@ function Projects({}) {
               description="Unleash your mind's masterpiece. Immerse yourself in a realm where stories come alive through the magic of words. Explore, create, and get lost in the art of storytelling on our unique literary canvas"
               ghLink="https://github.com/tarunmanoharann/Scribble"
               demoLink="https://scribble-bice.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shebakes}
+              isBlog={false}
+              title="SheBakes"
+              description="Celebrate Life's Sweet Moments With Us.From festivals to everyday joys, we've got the perfect treat for every occasion"
+              ghLink="https://github.com/tarunmanoharann/bakes"
+              demoLink="https://she-bakes.vercel.app/"
             />
           </Col>
 
