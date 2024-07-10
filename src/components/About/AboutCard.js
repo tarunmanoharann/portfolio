@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="green">Tarun </span>
             from <span className="green"> Erode, India.</span>
             <br />
-            I am currently pursuing <span className="green">  Computer Science.</span>
+            I am currently pursuing <span className="green">  Bachelors Degree in Computer Science Engineering</span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
