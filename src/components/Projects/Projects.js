@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import scribble from "../../Assets/Projects/Scribble.png"
 import smoothgulp from "../../Assets/Projects/Smoothgulp.png"
 import shebakes from "../../Assets/Projects/SheBakes.png"
+import learnhorizon from "../../Assets/Projects/LearnHorizon.png"
 
 function Projects({}) {
   return (
@@ -16,7 +17,6 @@ function Projects({}) {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={smoothgulp}
@@ -41,6 +41,17 @@ function Projects({}) {
           
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={learnhorizon}
+              isBlog={false}
+              title="LearnHorizon"
+              description="Imagine a space where the spark of curiosity ignites a lifelong journey. With LearnHorizon, I sculpted a digital landscape that merges timeless educational values with cutting-edge design, creating an immersive experience that inspires and empowers."
+              ghLink="https://github.com/tarunmanoharann/LearnHorizon"
+              demoLink="https://learnhorizon.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={scribble}
               isBlog={false}
               title="Scribble"
@@ -49,11 +60,6 @@ function Projects({}) {
               demoLink="https://scribble-bice.vercel.app/"
             />
           </Col>
-
-          
-
-         
- 
         </Row>
       </Container>
     </Container>
