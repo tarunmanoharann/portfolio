@@ -8,6 +8,7 @@ import learnhorizon from "../../Assets/Projects/LearnHorizon.png"
 
 function Projects({}) {
   return (
+    <section id="project">
     <Container fluid className="project-section" >
       <Container>
         <h1 className="project-heading">
@@ -63,7 +64,10 @@ function Projects({}) {
         </Row>
       </Container>
     </Container>
+    </section>
   );
 }
 
 export default Projects;
+
+

@@ -6,7 +6,7 @@ import Type from "./Type";
 
 function Home() {
   return (
-    <section>
+    <section id="home">
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>

@@ -15,7 +15,7 @@ function ResumeNew() {
   }, []);
 
   return (
-    <div>
+    <section id="resume">
       <Container fluid className="resume-section">
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
@@ -47,7 +47,7 @@ function ResumeNew() {
           </Button>
         </Row>
       </Container>
-    </div>
+    </section>
   );
 }
 
