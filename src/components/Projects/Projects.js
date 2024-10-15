@@ -29,16 +29,7 @@ function Projects({}) {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={shebakes}
-              isBlog={false}
-              title="SheBakes"
-              description="Celebrate Life's Sweet Moments With Us.From festivals to everyday joys, we've got the perfect treat for every occasion"
-              ghLink="https://github.com/tarunmanoharann/bakes"
-              demoLink="https://she-bakes.vercel.app/"
-            />
-          </Col>
+
           
           <Col md={4} className="project-card">
             <ProjectCard
@@ -48,6 +39,17 @@ function Projects({}) {
               description="Imagine a space where the spark of curiosity ignites a lifelong journey. With LearnHorizon, I sculpted a digital landscape that merges timeless educational values with cutting-edge design, creating an immersive experience that inspires and empowers."
               ghLink="https://github.com/tarunmanoharann/LearnHorizon"
               demoLink="https://learnhorizon.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shebakes}
+              isBlog={false}
+              title="SheBakes"
+              description="Celebrate Life's Sweet Moments With Us.From festivals to everyday joys, we've got the perfect treat for every occasion"
+              ghLink="https://github.com/tarunmanoharann/bakes"
+              demoLink="https://she-bakes.vercel.app/"
             />
           </Col>
 
