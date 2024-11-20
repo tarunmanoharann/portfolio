@@ -5,6 +5,7 @@ import scribble from "../../Assets/Projects/Scribble.png"
 import smoothgulp from "../../Assets/Projects/Smoothgulp.png"
 import shebakes from "../../Assets/Projects/SheBakes.png"
 import learnhorizon from "../../Assets/Projects/LearnHorizon.png"
+import invenpulse from  "../../Assets/Projects/InvenPulse.png"
 
 function Projects({}) {
   return (
@@ -30,7 +31,17 @@ function Projects({}) {
           </Col>
 
 
-          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={invenpulse}
+              isBlog={false}
+              title="Invenpulse"
+              description="Track, manage, and organize with ease. Simplify your workflow and elevate efficiency. Your inventory, perfected!"
+              ghLink="https://github.com/tarunmanoharann/InvenPulse"
+              demoLink="https://invenpulse.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={learnhorizon}
