@@ -6,6 +6,8 @@ import smoothgulp from "../../Assets/Projects/Smoothgulp.png"
 import shebakes from "../../Assets/Projects/SheBakes.png"
 import learnhorizon from "../../Assets/Projects/LearnHorizon.png"
 import invenpulse from  "../../Assets/Projects/InvenPulse.png"
+import culiflow from  "../../Assets/Projects/CulifFlow.png"
+
 
 function Projects({}) {
   return (
@@ -39,6 +41,17 @@ function Projects({}) {
               description="Track, manage, and organize with ease. Simplify your workflow and elevate efficiency. Your inventory, perfected!"
               ghLink="https://github.com/tarunmanoharann/InvenPulse"
               demoLink="https://invenpulse.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={culiflow}
+              isBlog={false}
+              title="Culiflow"
+              description="AI-driven inventory prediction and optimization. Forecast stock needs, reduce waste, and maximize profitability. Your restaurant operations, revolutionized!"
+              ghLink="https://github.com/tarunmanoharann/CuliFlow"
+              demoLink="https://culi-flow.vercel.app/"
             />
           </Col>
 
