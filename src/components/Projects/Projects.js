@@ -48,7 +48,7 @@ function Projects({}) {
             <ProjectCard
               imgPath={culiflow}
               isBlog={false}
-              title="Culiflow"
+              title="Culi-flow"
               description="AI-driven inventory prediction and optimization. Forecast stock needs, reduce waste, and maximize profitability. Your restaurant operations, revolutionized!"
               ghLink="https://github.com/tarunmanoharann/CuliFlow"
               demoLink="https://culi-flow.vercel.app/"
