@@ -1,0 +1,21 @@
+services:
+  js-app:
+    # Main React/Node.js static site service
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: js-app:latest
+    container_name: js-app
+    ports:
+      - "3000:3000"  # Expose the app on port 3000
+    restart: unless-stopped
+    init: true
+    # env_file: ./.env  # Uncomment if .env file exists
+    # No volumes needed as this is a static build
+    # No external dependencies detected
+    # Uses a non-root user for security
+    # Serves the React build using 'serve' on port 3000
+
+# No external services (databases, caches, etc.) detected in README or source
+# No volumes section needed as there are no persistent data requirements
+# No networks section needed as there is only one service
